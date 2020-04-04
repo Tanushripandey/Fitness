@@ -40,16 +40,16 @@
 
           <ion-row>
             <ion-col class="ion-text-start" size-sm="6">
-              <div  class="forgot-text">Register Here</div>
+              <div (click)="register()" class="forgot-text">Register Here</div>
             </ion-col>
             <ion-col class="ion-text-end" size-sm="6">
-              <div  class="forgot-text">Forgot Password !</div>
+              <div (click)="forgot_password()" class="forgot-text">Forgot Password !</div>
             </ion-col>
           </ion-row>
 
           <div class="ion-padding-vertical ">
             <!-- Added login() to change the event on html attributes -->
-            <ion-button class="submitButton">LOGIN</ion-button>
+            <ion-button class="submitButton"(click)="login()" >LOGIN</ion-button>
           </div>
 
         </ion-card-content>

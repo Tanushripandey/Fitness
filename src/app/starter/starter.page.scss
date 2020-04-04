@@ -1,0 +1,16 @@
+ion-content {
+    //changed here background image fo register page. In scss we write --background for this.
+    --background: url('/assets/icon/16.jpg')no-repeat center center/cover;
+    --background-position: center !important; 
+    --background-repeat: no-repeat !important; 
+    --background-size: cover !important; 
+    
+}
+
+.bottomView {
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+    left: 5px;
+}
+  
