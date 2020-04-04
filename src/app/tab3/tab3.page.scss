@@ -1,3 +1,11 @@
-ion-content ion-toolbar {
-  --background: translucent;
+ion-content {
+  //changed here background image fo register page. In scss we write --background for this.
+  --background: url('/assets/icon/7.jpg')no-repeat center center/cover;
+  --background-position: center !important; 
+  --background-repeat: no-repeat !important; 
+  --background-size: cover !important; ; 
+}
+.tab-header {
+  color:black;
+  
 }
