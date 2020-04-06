@@ -8,7 +8,7 @@
 
 
 <ion-content class="ion-padding">
-  
+  <form (keyup.enter)="loginForm.valid && login()" (ngSubmit)="login()" [formGroup]="loginForm">
     <ion-row>
       <ion-col class="ion-text-center" size-sm="12">
         <h1 class="login-header">Login</h1>
@@ -22,19 +22,44 @@
             <div class="input-parent ion-padding-vertical">
               <ion-item lines="none">
                 <ion-label position="floating">Email</ion-label>
-                <ion-input name="email" type="email"></ion-input>
+                <ion-input formControlName="email" type="email"></ion-input>
               </ion-item>
             </div>
             
-       
+            <!--for validation-->
+            <div class="error-container">
+              <ng-container *ngFor="let validation of validationMessages.email">
+                <div class="error-message">
+                  <div
+                    *ngIf="loginForm.get('email').hasError(validation.type) && (loginForm.get('email').dirty && loginForm.get('email').touched)">
+                    <span>{{ validation.message }}</span>
+                  </div>
+                
+              </div>
+            </ng-container>
+          </div>
+
+
+
 
           <div class="input-parent ion-padding-vertical">
             <ion-item lines="none">
               <ion-label position="floating">Password</ion-label>
-              <ion-input name="password" type="password"></ion-input>
+              <ion-input formControlName="password" type="password"></ion-input>
             </ion-item>
           </div>
 
+ <!-- Validation Message For password -->
+ <div class="error-container">
+  <ng-container *ngFor="let validation of validationMessages.password">
+    <div class="error-message">
+      <div
+        *ngIf="loginForm.get('password').hasError(validation.type) && (loginForm.get('password').dirty && loginForm.get('password').touched)">
+        <span>{{ validation.message }}</span>
+      </div>
+    </div>
+  </ng-container>
+</div>
 
 
 
@@ -49,12 +74,12 @@
 
           <div class="ion-padding-vertical ">
             <!-- Added login() to change the event on html attributes -->
-            <ion-button class="submitButton"(click)="login()" >LOGIN</ion-button>
+            <ion-button class="submitButton" [disabled]="loginForm.invalid"[type]="'submit'" >LOGIN</ion-button>
           </div>
 
         </ion-card-content>
       </ion-card>
     </ion-col>
   </ion-row>
-  
+  </form> 
 </ion-content>
