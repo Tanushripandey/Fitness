@@ -1,0 +1,8 @@
+{
+  "appId": "com.FitnessApp.app",
+  "appName": "FitnessApp",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

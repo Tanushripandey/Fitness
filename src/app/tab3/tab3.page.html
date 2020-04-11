@@ -5,35 +5,25 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-<!--
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
-</ion-content>-->
 
 <ion-content class="ion-padding">
 
-  <!--<ion-row>
-    <ion-col class="ion-text-center" size-sm="12">
-      <h1 class="tab-header">Profile</h1>
-    </ion-col>
-  </ion-row>-->
   <ion-row>
-    <ion-col class="ion-text-center" size-sm="12">
-      <ion-chip class="ion-margin-start" >
-      <ion-avatar>
-      
-        <img src='/assets/icon/user.png'>
-      </ion-avatar>
-      </ion-chip>
+    <ion-col size-sm="12" class="ion-text-center">
+      <h1 color="primary">My Profile</h1>
     </ion-col>
   </ion-row>
-
-
+  <ion-row>
+    <ion-col size-sm="12" class="ion-text-center">
+      <div class="profilepic">
+        <img *ngIf="photo" [src]="photo" />
+        <!-- <input type="hidden" formControlName="pic"> -->
+        <img *ngIf="!photo" src="../../assets/icon/user.png" />
+        <ion-button class="addImg" (click)="actionPerform(e)">
+          <ion-icon name="camera"></ion-icon>
+        </ion-button>
+      </div>
+    </ion-col>
+  </ion-row>
 
 </ion-content>
