@@ -1,5 +1,7 @@
 {
   "name": "Fitness",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
