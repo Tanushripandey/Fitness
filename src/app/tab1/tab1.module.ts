@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
-import { ModalViewComponent } from '../components/modal-view/modal-view.component';
+import { ModelComponent } from '../components/model/model.component';
 
 @NgModule({
   imports: [
@@ -13,7 +13,7 @@ import { ModalViewComponent } from '../components/modal-view/modal-view.componen
     FormsModule,
     RouterModule.forChild([{ path: '', component: Tab1Page }])
   ],
-  declarations: [Tab1Page],
-  // entryComponents:[ModalViewComponent]
+  declarations: [Tab1Page, ModelComponent],
+  entryComponents: [ModelComponent]
 })
 export class Tab1PageModule {}

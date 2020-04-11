@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ModalController, ActionSheetController } from '@ionic/angular';
-import { ModalViewComponent } from '../components/modal-view/modal-view.component';
+import { ModelComponent } from '../components/model/model.component';
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
@@ -12,11 +12,22 @@ export class Tab1Page {
               public actionSheetController: ActionSheetController
     ) {}
 
-  // async presentModal() {
-  //   const modal = await this.modalCtrl.create({
-  //     component: ModalViewComponent
-  //   });
-  //   return await modal.present();
-  // }
+  async presentModal() {
+    const modal = await this.modalCtrl.create({
+      component: ModelComponent,
+      componentProps: {
+        modalTitle: 'Modal-Title',
+        content: 'SATYANSHU!!'
+      },
+      cssClass: '',
+      backdropDismiss: false,
+      animated: false
+    });
+    modal.onDidDismiss().then(returnData => {
+      if (returnData.data) {
 
-}
+      }
+    });
+    return await modal.present();
+    }
+  }

@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { ModalViewComponent } from './modal-view.component';
+import { ModelComponent } from './model.component';
 
-describe('ModalViewComponent', () => {
-  let component: ModalViewComponent;
-  let fixture: ComponentFixture<ModalViewComponent>;
+describe('ModelComponent', () => {
+  let component: ModelComponent;
+  let fixture: ComponentFixture<ModelComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ModalViewComponent ],
+      declarations: [ ModelComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ModalViewComponent);
+    fixture = TestBed.createComponent(ModelComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
