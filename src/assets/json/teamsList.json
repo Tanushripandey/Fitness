@@ -12,6 +12,43 @@
             "FullTeamName": "Royal Challengers Bangalore",
             "ShortName":"RCB",
             "img": ""
-        }    
+        },
+        {
+            "id" : 3,
+            "FullTeamName": "Delhi Capitals",
+            "ShortName":"DC",
+            "img": ""
+        },   
+
+        {
+            "id" : 4,
+            "FullTeamName": "kings Xi Punjab",
+            "ShortName":"KXP",
+            "img": ""
+        }, 
+        {
+            "id" : 5,
+            "FullTeamName": "kolkata Knight Riders ",
+            "ShortName":"KKR",
+            "img": ""
+        }, 
+        {
+            "id" : 6,
+            "FullTeamName": "Mumbai Indians",
+            "ShortName":"MI",
+            "img": ""
+        }, 
+        {
+            "id" : 7,
+            "FullTeamName": "Rajasthan Royals",
+            "ShortName":"RR",
+            "img": ""
+        }, 
+        {
+            "id" : 8,
+            "FullTeamName": "Sunrisers Hydrabad",
+            "ShortName":"SH",
+            "img": ""
+        }
     ]
 }
