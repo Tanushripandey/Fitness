@@ -185,7 +185,7 @@
         },
 
 
-        
+
         {
             "id" : 7,
             "playerDetails":[
@@ -203,12 +203,12 @@
 {
     "name":"Jos Buttler",
     "Role": "Wicketkeeper-batsman",
-    "img":"/assets/buttler.png"
+    "img":"/assets/icon/buttler.png"
 },
 {
     "name":"Mahipal Lomror",
     "Role": "All-rounder",
-    "img":"/assets/lomror.png"
+    "img":"/assets/icon/lomror.png"
 },
 {
     "name":" Manan Vohra",
