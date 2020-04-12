@@ -1,0 +1,17 @@
+
+{
+    "Teams": [
+        {
+            "id" : 1,
+            "FullTeamName": "Chennai Super Kings",
+            "ShortName":"CSK",
+            "img": "/assets/icon/"
+        },
+        {
+            "id":2,
+            "FullTeamName": "Royal Challengers Bangalore",
+            "ShortName":"RCB",
+            "img": ""
+        }    
+    ]
+}

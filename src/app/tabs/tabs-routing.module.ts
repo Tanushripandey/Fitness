@@ -18,16 +18,6 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'tab2',
-        children: [
-          {
-            path: '',
-            loadChildren: () =>
-              import('../tab2/tab2.module').then(m => m.Tab2PageModule)
-          }
-        ]
-      },
-      {
         path: 'tab3',
         children: [
           {
@@ -37,18 +27,18 @@ const routes: Routes = [
           }
         ]
       },
-     // {
-      //  path: '',
-      //  redirectTo: '/tabs/tab1',
-       // pathMatch: 'full'
-     // }
+      {
+        path: 'teams',
+        children: [
+          {
+            path: '',
+            loadChildren: () =>
+              import('../teams/teams.module').then(m => m.TeamsPageModule)
+          }
+        ]
+      }
     ]
   },
- // {
- //   path: '',
- //   redirectTo: '/tabs/tab1',
-  //  pathMatch: 'full'
- // } 
 ];
 
 @NgModule({
