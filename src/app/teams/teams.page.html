@@ -1,15 +1,15 @@
 <ion-content>
-  <ion-row>
+  <ion-row class="top-header">
     <ion-col size-sm="12">
-      <div class="top-header">
+      <div>
         <h1 class="header-title">Teams</h1>
       </div>
     </ion-col>
   </ion-row>
   <ion-row>
     <ion-col size-sm="6" *ngFor="let items of listTeamDetails">
-      <ion-card>
-        <ion-card-header>
+      <ion-card class="team_card">
+        <ion-card-header class="teamcard_header">
           <img [src]="items.img">
         </ion-card-header>
         <ion-card-content>
