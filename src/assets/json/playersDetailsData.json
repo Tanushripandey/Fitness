@@ -1,0 +1,90 @@
+
+{
+    "playersDetails": [
+        {
+            "id" : 1,
+            "playerDetails":[
+                {
+                    "name":"M S Dhoni",
+                    "Role": "WK",
+                    "img":""
+                },
+                {
+                    "name":"M S Dhoni",
+                    "Role": "WK",
+                    "img":""
+                }
+            ]
+        }, 
+        {
+            "id" : 2,
+            "playerDetails":[
+                {
+                    "name":"Virat Kohli",
+                    "Role": "BAT",
+                    "img":""
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "playerDetails":[
+                {
+                    "name":"Shreyas Iyer",
+                    "Role": "BAT",
+                    "img":""
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "playerDetails":[
+                {
+                    "name":"Ravichandran Ashwin",
+                    "Role": "ALL",
+                    "img":""
+                }
+            ]
+        },
+        {
+            "id" : 5,
+            "playerDetails":[
+                {
+                    "name":"Dinesh Karthik",
+                    "Role": "WK",
+                    "img":""
+                }
+            ]
+        },
+        {
+            "id" : 6,
+            "playerDetails":[
+                {
+                    "name":"Rohit Sharma",
+                    "Role": "ALL",
+                    "img":""
+                }
+            ]
+        },
+        {
+            "id" : 7,
+            "playerDetails":[
+                {
+                    "name":"Ajinkya Rahane",
+                    "Role": "BAT",
+                    "img":""
+                }
+            ]
+        },
+        {
+            "id" : 8,
+            "playerDetails":[
+                {
+                    "name":"David Warner",
+                    "Role": "BAT",
+                    "img":""
+                }
+            ]
+        }     
+    ]
+}

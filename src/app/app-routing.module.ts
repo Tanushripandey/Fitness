@@ -23,6 +23,11 @@ const routes: Routes = [
     path: 'starter',
     loadChildren: () => import('./starter/starter.module').then( m => m.StarterPageModule)
   },
+  {
+    path: 'player-details/:id',
+    loadChildren: () => import('./player-details/player-details.module').then( m => m.PlayerDetailsPageModule)
+  },
+
 ];
 @NgModule({
   imports: [

@@ -8,13 +8,20 @@
     margin: 0;
     color: #ffffff;
 }
-.team_card{
-    background-color: #eeeeee;
 
+.team_card {
+    height: 275px;
 }
+
 .teamcard_header{
     padding: 0;
 }
 .teamcard_header img{
     height: 100px;
+}
+.teamFullName {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 10px;
 }
