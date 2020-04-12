@@ -1,16 +1,21 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>player-details</ion-title>
+<ion-header >
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <h1 class="ion-text-center">Players-Details</h1>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
   <ion-row>
     <ion-col size-sm="6" *ngFor="let player of player">
-      <ion-card>
-        <ion-card-content>
-          <p>{{player.name}}</p>
-          <p>{{player.Role}}</p>
+      <ion-card class="team_card">
+        <ion-card-header class="teamcard_header ion-text-center">
+          <img [src]="player.img">
+        </ion-card-header>
+        <ion-card-content class="ion-text-center">
+          <p class="teamFullName">{{player.name}}</p>
+          <p class="teamShortName"s>{{player.Role}}</p>
         </ion-card-content>
       </ion-card>
     </ion-col>
