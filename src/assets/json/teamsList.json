@@ -5,50 +5,50 @@
             "id" : 1,
             "FullTeamName": "Chennai Super Kings",
             "ShortName":"CSK",
-            "img": "/assets/icon/"
+            "img": "/assets/icon/csk.jpg"
         },
         {
             "id":2,
             "FullTeamName": "Royal Challengers Bangalore",
             "ShortName":"RCB",
-            "img": ""
+            "img": "/assets/icon/rcb.png"
         },
         {
             "id" : 3,
             "FullTeamName": "Delhi Capitals",
             "ShortName":"DC",
-            "img": ""
+            "img": "/assets/icon/dc.png"
         },   
 
         {
             "id" : 4,
             "FullTeamName": "kings Xi Punjab",
             "ShortName":"KXP",
-            "img": ""
+            "img": "/assets/icon/punjab.jpg"
         }, 
         {
             "id" : 5,
             "FullTeamName": "kolkata Knight Riders ",
             "ShortName":"KKR",
-            "img": ""
+            "img": "/assets/icon/kkr.png"
         }, 
         {
             "id" : 6,
             "FullTeamName": "Mumbai Indians",
             "ShortName":"MI",
-            "img": ""
+            "img": "/assets/icon/MI.png"
         }, 
         {
             "id" : 7,
             "FullTeamName": "Rajasthan Royals",
             "ShortName":"RR",
-            "img": ""
+            "img": "/assets/icon/RR.png"
         }, 
         {
             "id" : 8,
             "FullTeamName": "Sunrisers Hydrabad",
             "ShortName":"SH",
-            "img": ""
+            "img": "/assets/icon/SH.png"
         }
     ]
 }

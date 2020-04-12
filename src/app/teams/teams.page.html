@@ -7,14 +7,14 @@
     </ion-col>
   </ion-row>
   <ion-row>
-    <ion-col size-sm="6">
+    <ion-col size-sm="6" *ngFor="let items of listTeamDetails">
       <ion-card>
         <ion-card-header>
-          <img src="">
+          <img [src]="items.img">
         </ion-card-header>
         <ion-card-content>
-          <h1></h1>
-          <h1></h1>
+          <h1>{{items.FullTeamName}}</h1>
+          <p>{{items.ShortName}}</p>
         </ion-card-content>
       </ion-card>
     </ion-col>
