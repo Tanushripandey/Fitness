@@ -5,14 +5,29 @@
             "id" : 1,
             "playerDetails":[
                 {
-                    "name":"M S Dhoni",
-                    "Role": "WK",
-                    "img":""
+                    "name":"MS Dhoni",
+                    "Role": "Wicketkeeper batsman",
+                    "img":"/assets/icon/dhoni.png"
                 },
                 {
-                    "name":"M S Dhoni",
-                    "Role": "WK",
-                    "img":""
+                    "name":"Suresh Raina",
+                    "Role": "Batsman",
+                    "img":"/assets/icon/raina.png"
+                },
+                {
+                    "name":"Deepak Chahar",
+                    "Role": "Bowler",
+                    "img":"/assets/icon/chahar.png"
+                },
+                {
+                    "name":"Dwayne Bravo",
+                    "Role": "All-rounder",
+                    "img":"/assets/icon/bravo.png"
+                },
+                {
+                    "name":"Harbhajan Singh",
+                    "Role": "Bowler",
+                    "img":"/assets/icon/harbajan.png"
                 }
             ]
         }, 
@@ -20,19 +35,59 @@
             "id" : 2,
             "playerDetails":[
                 {
-                    "name":"Virat Kohli",
-                    "Role": "BAT",
-                    "img":""
-                }
+                "name":"Virat Kohli",
+                "Role": "batsman",
+                "img":"/assets/icon/kohli.png"
+            },
+            {
+                "name":"AB de villiers",
+                "Role": "Wicketkeeper-batsman",
+                "img":"/assets/icon/villiers.png"
+            },
+            {
+                "name":"Parthiv Patel",
+                "Role": "Wicketkeeper-batsman",
+                "img":"/assets/icon/parthiv.png"
+            },
+            {
+                "name":"Umesh Yadav",
+                "Role": "Bowler",
+                "img":"/assets/icon/umesh.png"
+            },
+            {
+                "name":"Yuzvendra Chahal",
+                "Role": "Bowler",
+                "img":"/assets/icon/chahal.png"
+            }
             ]
         },
         {
             "id" : 3,
             "playerDetails":[
                 {
-                    "name":"Shreyas Iyer",
-                    "Role": "BAT",
-                    "img":""
+                    "name":"Ishant Sharma",
+                    "Role": "Bowler",
+                    "img":"/assets/icon/ishant.png"
+                },
+                {
+                    "name":"Shikhar Dhawan",
+                    "Role": "batsman",
+                    "img":"/assets/icon/dhawan.png"
+                },
+                {
+                    "name":" Rishabh Pant",
+                    "Role": "Wicketkeeper",
+                    "img":"/assets/icon/pant.png"
+                },
+                {
+                    "name":"Harshal Patel",
+                    "Role": "Bowler",
+                    "img":"/assets/patel.png"
+                },
+                {
+                    "name":"Keemo Paul",
+                    "Role": "Batsman",
+                    "img":"/assets/icon/paul.png"
                 }
             ]
         },
@@ -40,9 +95,30 @@
             "id" : 4,
             "playerDetails":[
                 {
-                    "name":"Ravichandran Ashwin",
-                    "Role": "ALL",
-                    "img":""
+                   
+                    "name":"KL Rahul",
+                    "Role": "Wicketkeeper batsman",
+                    "img":"/assets/icon/rahul.png"
+                },
+                {
+                    "name":"Chris Gayle",
+                    "Role": "All-rounder",
+                    "img":"/assets/icon/gayle.png"
+                },
+                {
+                    "name":"  Mohammad Shami",
+                    "Role": "Bowler",
+                    "img":"/assets/icon/shami.png"
+                },
+                {
+                    "name":"Hardus Viljoen",
+                    "Role": "Batsman",
+                    "img":"/assets/viljoen.png"
+                },
+                {
+                    "name":" Karun Nair",
+                    "Role": "Batsman",
+                    "img":"/assets/icon/nair.png"
                 }
             ]
         },
@@ -51,8 +127,28 @@
             "playerDetails":[
                 {
                     "name":"Dinesh Karthik",
-                    "Role": "WK",
-                    "img":""
+                    "Role": "Wicketkeeper batsman",
+                    "img":"/assets/icon/karthik.png"
+                },
+                {
+                    "name":"Kuldeep Yadav",
+                    "Role": "All-rounder",
+                    "img":"/assets/icon/yadav.png"
+                },
+                {
+                    "name":"   Harry Gurney",
+                    "Role": "Batsman",
+                    "img":"/assets/icon/gurney.png"
+                },
+                {
+                    "name":"Lockie Ferguson",
+                    "Role": "Batsman",
+                    "img":"/assets/ferguson.png"
+                },
+                {
+                    "name":"Andre Russell ",
+                    "Role": "All-rounde",
+                    "img":"/assets/icon/russell.png"
                 }
             ]
         },
@@ -60,30 +156,102 @@
             "id" : 6,
             "playerDetails":[
                 {
+                   
                     "name":"Rohit Sharma",
-                    "Role": "ALL",
-                    "img":""
+                    "Role": "batsman",
+                    "img":"/assets/icon/.sharmapng"
+                },
+                {
+                    "name":"Hardik Pandya",
+                    "Role": "All-rounder",
+                    "img":"/assets/icon/pandya.png"
+                },
+                {
+                    "name":" Jasprit Bumrah",
+                    "Role": "Bowler",
+                    "img":"/assets/icon/bumrah.png"
+                },
+                {
+                    "name":"Kieron Pollard",
+                    "Role": "All-rounder",
+                    "img":"/assets/pollard.png"
+                },
+                {
+                    "name":" Lasith Malinga",
+                    "Role": "Bowler",
+                    "img":"/assets/icon/malinga.png"
                 }
             ]
         },
+
+
+        
         {
             "id" : 7,
             "playerDetails":[
                 {
-                    "name":"Ajinkya Rahane",
-                    "Role": "BAT",
-                    "img":""
-                }
+                
+    "name":"Jofra Archer",
+    "Role": "All-rounder",
+    "img":"/assets/icon/archer.png"
+},
+{
+    "name":" Ben Stokes",
+    "Role": "Batsman",
+    "img":"/assets/icon/stokes.png"
+},
+{
+    "name":"Jos Buttler",
+    "Role": "Wicketkeeper-batsman",
+    "img":"/assets/buttler.png"
+},
+{
+    "name":"Mahipal Lomror",
+    "Role": "All-rounder",
+    "img":"/assets/lomror.png"
+},
+{
+    "name":" Manan Vohra",
+    "Role": "Batsman",
+    "img":"/assets/icon/vohra.png"
+}
             ]
         },
+
+
+
+
         {
             "id" : 8,
             "playerDetails":[
-                {
-                    "name":"David Warner",
-                    "Role": "BAT",
-                    "img":""
-                }
+                
+                    
+                    {
+                
+                        "name":" David Warner",
+                        "Role": "Batsman",
+                        "img":"/assets/icon/warner.png"
+                    },
+                    {
+                        "name":" Abhishek Sharma",
+                        "Role": "Batsman",
+                        "img":"/assets/icon/abhishek.png"
+                    },
+                    {
+                        "name":"Bhuvneshwar Kumar",
+                        "Role": "Bowler",
+                        "img":"/assets/bhuvneshwar.png"
+                    },
+                    {
+                        "name":"  Billy Stanlake",
+                        "Role": "Batsman",
+                        "img":"/assets/stanlake.png"
+                    },
+                    {
+                        "name":" Kane Williamson",
+                        "Role": "Batsman",
+                        "img":"/assets/icon/williamson.png"
+                    }
             ]
         }     
     ]
